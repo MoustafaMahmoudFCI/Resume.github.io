@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Portfolio Details</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- plugins CSS Files -->
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="plugins/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="plugins/owl.carousel/assets/owl.theme.default.min.css"
+    />
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main id="main">
+      <!-- ======= Portfolio Details ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <h2 class="mb-4">This is an example of portfolio detail</h2>
+            <div class="col-lg-8">
+              <div class="owl-carousel portfolio-details-carousel">
+                <img
+                  src="images/img/portfolio/portfolio-details-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <img
+                  src="images/img/portfolio/portfolio-details-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <img
+                  src="images/img/portfolio/portfolio-details-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-4 portfolio-info">
+              <h3 class="text-secondary">Project information</h3>
+              <ul class="list-unstyled">
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: ASU Company</li>
+                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li>
+                  <strong>Project URL</strong>: <a href="#">www.example.com</a>
+                </li>
+              </ul>
+
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tenetur voluptate, velit in quis, ipsam rem, error explicabo nam
+                eaque impedit atque iure incidunt iste. Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Accusamus totam facere
+                officiis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Details -->
+    </main>
+    <!-- End #main -->
+
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/owl.carousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          loop: true,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
