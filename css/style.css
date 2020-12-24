@@ -137,9 +137,8 @@ a {
   padding-left: 160px;
   height: 100vh;
   width: 100%;
-  background: url("../images/hero/karl-fredrickson-DsAjH9B24G8-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
+  background: url("../images/hero/karl-fredrickson-DsAjH9B24G8-unsplash.jpg")
+    no-repeat top right;
   background-size: cover;
   color: var(--second-color);
   position: relative;
@@ -161,6 +160,7 @@ a {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 .hero .container {
   z-index: 1;
 }
