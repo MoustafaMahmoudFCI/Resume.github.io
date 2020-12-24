@@ -137,14 +137,9 @@ a {
   padding-left: 160px;
   height: 100vh;
   width: 100%;
-<<<<<<< HEAD
   background: url("../images/hero/karl-fredrickson-DsAjH9B24G8-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top right;
-=======
-  background: url("../images/hero/tim-bogdanov-4uojMEdcwI8-unsplash.jpg")
-    no-repeat top right;
->>>>>>> 2b5ec85ef7c2fec3f4ee101b464be8a39fb324ba
   background-size: cover;
   color: var(--second-color);
   position: relative;
